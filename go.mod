@@ -3,6 +3,11 @@ module github.com/wisniewski91/gift-card-pdf
 go 1.21.1
 
 require (
+	github.com/go-mail/mail v2.3.1+incompatible
+	github.com/jung-kurt/gofpdf v1.16.2
+)
+
+require (
 	github.com/a-h/templ v0.2.513 // indirect
 	github.com/labstack/echo/v4 v4.11.4 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
@@ -14,4 +19,5 @@ require (
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
+	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 )

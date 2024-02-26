@@ -1,0 +1,104 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.radiogallery {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.radiogallery label {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1200px;
+    min-height: 400px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.column {
+    width: 100%;
+    max-width: 50%;
+}
+
+.column img {
+    display: block;
+    width: 75%;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.gift-card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.radiogallery img {
+    max-width: 120px;
+    width: 100%;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.select-service {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.price-text,
+.selected-service {
+    margin: 0;
+    padding: 0;
+}
+
+.price-text span {
+    color: #c9d34d;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    color: #445;
+}
+
+input[type="submit"] {
+    outline: none;
+    background: #c9d34d;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    width: min-content;
+    border-radius: 20px;
+}

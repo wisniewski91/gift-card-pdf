@@ -1,0 +1,15 @@
+package components
+
+type SelectData struct {
+	Id      string
+	Name    string
+	Options []string
+}
+
+templ Select(data SelectData) {
+	<select name={ data.Id } id={ data.Id } x-model="service">
+		for _, option := range data.Options {
+			<option value={ option }>{ option }</option>
+		}
+	</select>
+}

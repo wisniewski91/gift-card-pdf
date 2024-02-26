@@ -1,0 +1,16 @@
+package components
+
+type InputData struct {
+	Label string
+	Name  string
+	Id    string
+	Value string
+	Type  string
+}
+
+templ Input(data InputData) {
+	if data.Label != "" {
+		<label for={ data.Id }>{ data.Label }</label>
+	}
+	<input type={ data.Type } name={ data.Name } id={ data.Id } value={ data.Value }/>
+}

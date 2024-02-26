@@ -1,0 +1,16 @@
+package components
+
+type Options struct {
+	Options []string
+}
+
+templ GallerySelect(data []string) {
+	<div class="radiogallery">
+		for _, img := range data {
+			<label>
+				<input type="radio" name="background" value={ img } x-model="preview"/>
+				<img src={ img }/>
+			</label>
+		}
+	</div>
+}
