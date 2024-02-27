@@ -22,8 +22,8 @@ func autorize() (types.PayUAuth, error) {
 	resource := "/pl/standard/user/oauth/authorize"
 	data := url.Values{}
 	data.Set("grant_type", "client_credentials")
-	data.Set("client_id", "475696")
-	data.Set("client_secret", "075968a77327f6b62a3b03b3d1c78529")
+	data.Set("client_id", "")
+	data.Set("client_secret", "")
 
 	u, _ := url.ParseRequestURI(apiUrl)
 	u.Path = resource
