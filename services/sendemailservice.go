@@ -13,8 +13,8 @@ import (
 func SendEmail(data types.GiftCard, filename string) error {
 
 	host := "smtp.gmail.com"
-	email := "marek.wisniewski.dev@gmail.com"
-	password := "fqtd lnsk rqfx cwmd"
+	email := ""
+	password := ""
 	port := 587
 
 	template, _ := template.ParseFiles("./views/email/email.html")
