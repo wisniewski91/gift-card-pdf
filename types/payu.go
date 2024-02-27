@@ -23,8 +23,3 @@ type Product struct {
 	UnitPrice string
 	quantity  string
 }
-
-// POS ID (pos_id):	475696
-// Second key (MD5):	02884264a9501e9c7daae8bb27a58bf0
-// OAuth protocol - client_id :	475696
-// OAuth protocol - client_secret:	075968a77327f6b62a3b03b3d1c78529
